@@ -1,0 +1,5 @@
+[gd_scene load_steps=2 format=3 uid="uid://dn4notj6sjkr1"]
+
+[ext_resource type="PackedScene" uid="uid://0qvd8ca84nrv" path="res://levels/base_level.tscn" id="1_groku"]
+
+[node name="IslandT1" instance=ExtResource("1_groku")]

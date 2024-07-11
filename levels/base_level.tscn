@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://0qvd8ca84nrv"]
+
+[ext_resource type="PackedScene" uid="uid://bh76jge2hplsh" path="res://terrain.tscn" id="1_lpeek"]
+[ext_resource type="PackedScene" uid="uid://f4ohg21014se" path="res://background.tscn" id="2_sjrqx"]
+
+[node name="BaseLevel" type="Node2D"]
+
+[node name="Terrain" parent="." instance=ExtResource("1_lpeek")]
+
+[node name="Background" parent="." instance=ExtResource("2_sjrqx")]
